@@ -1,5 +1,5 @@
 #include<stdio.h>
-void power(int n){
+void factorial(int n){
 int fact=1;
 for(int i=2;i<=n;i++){
 fact*=i;
@@ -11,6 +11,6 @@ int main(){
 int num;
 printf("Enter the number : ");
 scanf("%d",&num);
-power(num);
+factorial(num);
 return 0;
 }
